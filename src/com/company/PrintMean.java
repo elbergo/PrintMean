@@ -15,7 +15,7 @@ public class PrintMean {
 
     public static String meanCalc(double a, double b, double c, double d) { // ändrar från int till double
         // göra en sträng av mean värdet
-        //lösa problemet med heltalsdivision hej hej
+        //lösa problemet med heltalsdivision
         double mean = (a + b + c + d ) / 4;
         String meanString = String.valueOf(mean);
 
